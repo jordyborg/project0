@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #181818, #ffffff);
+  }
+  html {
+    font-size: 16px;
+  }
+  .wrapper {
+    position: absolute;
+    
+  }
+  .container {
+    width: 40vmin;
+    height: 40vmin;
+   
+  }
+  
+  .button-option {
+    background: #4bfffc;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 12vmin;
+    color: #0dffe7;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
