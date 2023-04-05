@@ -1,33 +1,66 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 400;
+    gap: 50px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Raleway", sans-serif;
   }
+
   body {
     height: 100vh;
-    background: linear-gradient(135deg, #181818, #ffffff);
+    background: linear-gradient(612deg, #000000, #00fffb);
   }
+
   html {
-    font-size: 16px;
+    font-size: 24px;
   }
+
   .wrapper {
     position: absolute;
-    
+    top: 20%;
+    right: 30%;  
   }
+
   .container {
-    width: 40vmin;
-    height: 40vmin;
-   
+    width: 69vmin;
+    height: 69vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3vmin;
+    grid-template-columns: repeat(3, 1fr);
   }
   
   .button-option {
-    background: #4bfffc;
+    background: #00fffb;
     height: 22vmin;
     width: 22vmin;
     border: none;
     border-radius: 8px;
-    font-size: 12vmin;
-    color: #0dffe7;
+    font-size: 12px;
+    color: #000000;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .popup {
+    background: linear-gradient(12deg, #00fffb, #d161ff);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+  }
+
+  #message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .popup.hide {
+    display: none;
   }
