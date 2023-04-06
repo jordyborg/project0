@@ -3,16 +3,19 @@
     margin: 400;
     gap: 50px;
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+    font-family: "", sans-serif;
   }
 
   body {
     height: 100vh;
     background: linear-gradient(612deg, #000000, #00fffb);
+    color: #333;
   }
 
   html {
     font-size: 24px;
+    width: 9vmin;
+    height: 14vmin;
   }
 
   .wrapper {
@@ -26,19 +29,19 @@
     height: 69vmin;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.3vmin;
+    gap: 1.3vmin;
     grid-template-columns: repeat(3, 1fr);
   }
   
   .button-option {
-    background: #00fffb;
+    background: #58fefb;
     height: 22vmin;
     width: 22vmin;
     border: none;
     border-radius: 8px;
     font-size: 12px;
     color: #000000;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 9999px rgba(0, 0, 0, 0.1);
   }
 
   .popup {
@@ -52,7 +55,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 1em;
-    font-size: 12vmin;
   }
 
   #message {

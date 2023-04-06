@@ -1,6 +1,4 @@
-# Coming soon
-
-# Markdown Intro
+# Tic Tac Toe
 
 Markdown is an alternative to HTML (not a substitute).
 
