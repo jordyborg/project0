@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
 * {
     padding: 0;
     margin: 400;
     gap: 50px;
     box-sizing: border-box;
-    font-family: "", sans-serif;
   }
 
   body {
     height: 100vh;
     background: linear-gradient(612deg, #000000, #00fffb);
     color: #333;
+    font-family: 'Rubik Pixels', cursive;
   }
 
   html {
