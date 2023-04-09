@@ -107,7 +107,8 @@ for (let i = 0; i < pressButton.length; i++) {
 }
 
 // innerText on to the page not just from console 
-// 
+// var element = document. getElementById('txt'); 
+// var text = element. innerText || element.
 
 
 // -- Event Listener --
@@ -139,3 +140,11 @@ for (let i = 0; i < pressButton.length; i++) {
 // need to assign button to both X and to Y 
 
 // Worry about CSS at the end
+
+// console.log(element1);
+// console.log(element2);
+// console.log(element3);
+// this variable has three elements inside them
+// each element is the pressButton with inside the square braces is winningPattern[i][0]
+// so they are taking turns
+// followed by an if statement,
