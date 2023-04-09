@@ -1,30 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.Restart {
+  --c: #000000;
+  /* text color */
+  background: linear-gradient(90deg, #d261ffbc 3%, #fff5, #00000000 67%) var(--_p,100%)/300% no-repeat,
+    #58fefb;
+  /* background color */
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.40em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 8px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
+
+.Restart:hover,
+.Restart:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+
+.Restart:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #58fefb(0, 255, 247, 0.333);
+  transition: 0.4s;
+}
+
+.Restart {
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin: 0;
+  cursor: pointer;
+  padding: .1em .3em;
+}
 
 * {
     padding: 0;
     margin: 400;
-    gap: 50px;
+    gap: 100px;
     box-sizing: border-box;
-    font-family: 'Delicious Handrawn', cursive;
-  }
+    font-family: 'Sedgwick Ave Display', cursive;
+}
 
-  body {
-    height: 100vh;
-    background: linear-gradient(612deg, #000000, #00fffb);
+body {
+    height: 115vh;
+    background: linear-gradient(612deg, #d161ff, #00fffb);
     color: #333;
-  }
+}
 
   html {
-    font-size: 27px;
-    width: 9vmin;
-    height: 14vmin;
-  }
+    font-size: 80px;
+    width: 5vmin;
+    height: vmin;
+}
 
   .wrapper {
     position: absolute;
-    top: 20%;
-    right: 30%;  
-  }
+    top: 14%;
+    right: 31.5%;  
+}
 
   .container {
     width: 69vmin;
@@ -33,18 +69,19 @@
     flex-wrap: wrap;
     gap: 1.3vmin;
     grid-template-columns: repeat(3, 1fr);
-  }
+    box-shadow: 9999px rgba(0, 0, 0, 0.1);
+}
   
   .button-option {
     background: #58fefb;
     height: 22vmin;
     width: 22vmin;
     border: none;
-    border-radius: 8px;
-    font-size: 12px;
+    border-radius: 100px;
+    font-size: 40px;
     color: #000000;
-    box-shadow: 9999px rgba(0, 0, 0, 0.1);
-  }
+    box-shadow: 9px rgba(0, 0, 0, 0.1);
+}
 
   .popup {
     background: linear-gradient(12deg, #00fffb, #d161ff);
@@ -52,18 +89,17 @@
     width: 100%;
     position: absolute;
     display: flex;
-    z-index: 2;
+    z-index: 4;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1em;
-  }
+}
 
   #message {
     color: #ffffff;
     text-align: center;
     font-size: 1em;
-  }
+}
 
   .popup.hide {
     display: none;

@@ -87,12 +87,12 @@ if (element1 === element2 && element2 === element3 && element1 !== '' ) {
 
 if (winningPattern)
  
-// Change the innerHTML of the box based on the turn variable
+// Change the innerText of the box based on the turn variable
 for (let i = 0; i < pressButton.length; i++) {
   pressButton[i].addEventListener("click", function() {
     if (pressButton[i].innerText === "" && winner === false ) { 
       console.log(winner);
-      // neeed to create a variable that will recognise the winner, the winner var can be global
+      // need to create a variable that will recognise the winner, the winner var can be global
       if (player1) {
         pressButton[i].innerText = 'X';
         checkWin() ;
@@ -105,6 +105,8 @@ for (let i = 0; i < pressButton.length; i++) {
     }
   });
 }
+
+
 
 // innerText on to the page not just from console 
 // var element = document. getElementById('txt'); 

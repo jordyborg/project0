@@ -1,63 +1,27 @@
-# Tic Tac Toe
+# Tic Tac Toe AKA Project0
 
-Markdown is an alternative to HTML (not a substitute).
+A web-based interactive Tic Tac Toe experience.
 
-The name is a dumb joke -- HTML is markUP language, this is a markDOWN langauge.
+## Project Description
 
-It is intended to be human readable that can also produce a HTML
+The point of this project is to create and design the game Tic Tac Toe from the ver beginning using Javascript, HTML, CSS and jQuery. 
+The game is to be accessible using a Web Browser.
 
-# Headings 
+## Technology used
 
-Also Headings
+Javascript
+HTML
+CSS
+Styling samples from:
+https://fonts.google.com/specimen/Sedgwick+Ave+Display
+https://getcssscan.com/css-buttons-examples
 
-==============
 
-## Subheadings
+## STILL NEED TO ADD MORE BELOW
 
-Also subheadings
-
---------------
-
-### Subsubheadings
-
-## Emphasis
 
 You can make words *italic* or **bold**
 This is for very ***special*** text
 
 Underscores will also _work_
 Bold & Italic + Underline is ___word___
-
-## Lists
-
-* Groucho 
-* Harpo 
-* Chico 
-
-### Numbered Lists
-
-1. Groucho 
-2. Harpo
-3. Chico 
-
-## Links
-
-This is [a link to the W3C](http://www.w3c.org/).
-
-## Images 
-
-![a fluffy kitty](http://www.placekitten.com/50/50)
-
-## Code formatting
-
-The jQuery library uses the `$` variable. This is the `monospace` font. Have you tried `console.log`?
-
-Here is an example of a function in JS:
-
-```javascript
-const thingy = function () {
-    console.log('this is the function');
-}
-```
-
-
