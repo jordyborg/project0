@@ -9,12 +9,12 @@ The game is to be accessible using a Web Browser.
 
 ## Technology used
 
-Javascript
-HTML
-CSS
-Styling samples from:
-https://fonts.google.com/specimen/Sedgwick+Ave+Display
-https://getcssscan.com/css-buttons-examples
+### Javascript
+### HTML
+### CSS
+### Styling samples from:
+### https://fonts.google.com/specimen/Sedgwick+Ave+Display
+### https://getcssscan.com/css-buttons-examples
 
 
 ## STILL NEED TO ADD MORE BELOW
