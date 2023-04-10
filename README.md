@@ -6,7 +6,7 @@ A web-based interactive Tic Tac Toe experience.
 
 The point of this project is to create and design the game Tic Tac Toe from the very beginning using Javascript, HTML, CSS and jQuery. 
 The game is accessible using a Web Browser.
-It's a game where there are two players and each of the players takes a turn on a 9-piece board that is divided 3x3, with the aim to get three of 'X's or 'O's in a row. a short, fun and brilliant experience.
+It's a game where there are two players and each of the players takes a turn on a 9-piece board that is divided 3x3, with the aim to get three of 'X's or 'O's in a row. Tic Tac Toe AKA project0 is a short, fun and brilliant experience.
 
 ## Technology used
 
