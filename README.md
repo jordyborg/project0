@@ -33,9 +33,12 @@ The game is to be accessible using a Web Browser.
 
 the approach taken, installation instructions, unsolved problems, etc.
 
+## Links
+
+https://jordyborg.github.io/project0/
+https://github.com/jordyborg/project0.git
+
 # Big thanks to the Team Leaders, Tina, CJ & Mark for the help on this project! 
-
-
 
 ![1](images/1.png) 
 ![2](images/2.png) 
