@@ -15,7 +15,7 @@ The game is to be accessible using a Web Browser.
 ##### Styling samples from:
 ##### https://fonts.google.com/specimen/Sedgwick+Ave+Display
 ##### https://getcssscan.com/css-buttons-examples
-
+##### https://www.w3docs.com/snippets/css/how-to-create-a-glowing-text.html
 
 ## Game features
 
@@ -35,8 +35,8 @@ the approach taken, installation instructions, unsolved problems, etc.
 
 ## Links
 
-https://jordyborg.github.io/project0/
-https://github.com/jordyborg/project0.git
+#### https://jordyborg.github.io/project0/
+#### https://github.com/jordyborg/project0.git
 
 # Big thanks to the Team Leaders, Tina, CJ & Mark for the help on this project! 
 
