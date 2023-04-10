@@ -33,10 +33,9 @@ It's a game where there are two players and each of the players takes a turn on 
 - Score wasn't able to be kept.
 - Once their is a winner, there is no line going through the winning combination.
 
-## Links
+## Link
 
 #### https://jordyborg.github.io/project0/
-#### https://github.com/jordyborg/project0.git
 
 # Big thanks to the Team Leaders, Tina, CJ & Mark for the help on this project! 
 
