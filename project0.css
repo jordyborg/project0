@@ -1,9 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
+
+body {
+    height: 105vh;
+    background: linear-gradient(612deg, #d161ff, #00fffb);
+    color: #333;
+}
+
+.glow {
+  font-size: 220px;
+  color: #7d14bf;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
+                 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+  html {
+    font-size: 73px;
+    width: 5vmin;
+    height: 110vmin;
+}
+
+  .wrapper {
+    position: absolute;
+    top: 0%;
+    right: 31.5%;  
+}
+
+  .container {
+    width: 69vmin;
+    height: 69vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3vmin;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 9999px rgba(0, 0, 0, 0.1);
+}
+  
+  .button-option {
+    background: #58fefb;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 100px;
+    font-size: 40px;
+    color: #000000;
+    box-shadow: 9px rgba(0, 0, 0, 0.1);
+}
+
+  .popup {
+    background: linear-gradient(12deg, #00fffb, #d161ff);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 4;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .Restart {
   --c: #000000;
   /* text color */
-  background: linear-gradient(90deg, #d261ffbc 3%, #fff5, #00000000 67%) var(--_p,100%)/300% no-repeat,
+  background: linear-gradient(90deg, #d261ffbc 5%, #fff5, #00000000 67%) var(--_p,100%)/300% no-repeat,
     #58fefb;
   /* background color */
   color: #0000;
@@ -44,62 +118,21 @@
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
-body {
-    height: 115vh;
-    background: linear-gradient(612deg, #d161ff, #00fffb);
-    color: #333;
-}
-
-  html {
-    font-size: 80px;
-    width: 5vmin;
-    height: vmin;
-}
-
-  .wrapper {
-    position: absolute;
-    top: 14%;
-    right: 31.5%;  
-}
-
-  .container {
-    width: 69vmin;
-    height: 69vmin;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.3vmin;
-    grid-template-columns: repeat(3, 1fr);
-    box-shadow: 9999px rgba(0, 0, 0, 0.1);
-}
-  
-  .button-option {
-    background: #58fefb;
-    height: 22vmin;
-    width: 22vmin;
-    border: none;
-    border-radius: 100px;
-    font-size: 40px;
-    color: #000000;
-    box-shadow: 9px rgba(0, 0, 0, 0.1);
-}
-
-  .popup {
-    background: linear-gradient(12deg, #00fffb, #d161ff);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    z-index: 4;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
   #message {
     color: #ffffff;
     text-align: center;
     font-size: 1em;
 }
+
+  #content {
+    color: #33e7ff;
+    font-size: 160px;
+    color: #7d14bf;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
 
   .popup.hide {
     display: none;

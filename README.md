@@ -1,4 +1,4 @@
-# Tic Tac Toe AKA Project0
+# Tic Tac Toe - Project0
 
 A web-based interactive Tic Tac Toe experience.
 
@@ -17,11 +17,24 @@ The game is to be accessible using a Web Browser.
 ##### https://getcssscan.com/css-buttons-examples
 
 
-## STILL NEED TO ADD MORE BELOW
+## Game features
+
+- The game Tic Tac Toe is functioning.
+- X and O will be taken one after the other. 
+- The game will stop being active to be played, and the winner will pop onto the screen to show which player wins.
+- Retro flashes CSS features that will blow your mind. 
+- By default X always starts.
+
+## ___Unsuccessful___ game features
+
+- Wasn't able ot assign either player to choose either X or O 
+- Restart Button is not functioning 
+- Score wasn't able to be kept
+
+the approach taken, installation instructions, unsolved problems, etc.
+
+# Big thanks to the Team Leaders, Tina, CJ & Mark for the help on this project! 
 
 
-You can make words *italic* or **bold**
-This is for very ***special*** text
 
-Underscores will also _work_
-Bold & Italic + Underline is ___word___
+[1](images/1.png%0D) [2](images/2.png%0D) [3](images/3.png%0D) ![4](images/4.png)
