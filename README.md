@@ -1,4 +1,4 @@
-# Tic Tac Toe - Project0
+# Tic Tac Toe - 'project0'
 
 A web-based interactive Tic Tac Toe experience.
 
