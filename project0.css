@@ -27,7 +27,6 @@ body {
   }
 }
 
-
   html {
     font-size: 73px;
     width: 5vmin;
@@ -72,7 +71,6 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-
 
 .Restart {
   --c: #000000;

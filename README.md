@@ -4,8 +4,9 @@ A web-based interactive Tic Tac Toe experience.
 
 ## Project Description
 
-The point of this project is to create and design the game Tic Tac Toe from the ver beginning using Javascript, HTML, CSS and jQuery. 
+The point of this project is to create and design the game Tic Tac Toe from the very beginning using Javascript, HTML, CSS and jQuery. 
 The game is to be accessible using a Web Browser.
+It's a game where there are two players and each of the players takes a turn on a 9-piece board that is 3x3, with the aim to get three of your either x's or O's in a row. 
 
 ## Technology used
 
